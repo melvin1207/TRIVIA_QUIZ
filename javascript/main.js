@@ -7,6 +7,7 @@ const answeres = document.querySelector("#answeres");
 let score = 0;
 
 form.addEventListener("submit", (e) => {
+  questions.innerHTML = '';
   btnResult.disabled = false;
   e.preventDefault();
   fetch(
